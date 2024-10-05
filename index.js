@@ -12,9 +12,22 @@ const axios = require('axios')
 
 const url = 'https://swapi.dev/api/people/'
 
-async function getRepos() {
-  let response = await axios.get(url)
+async function getRepos() 
+{
+ axios
+ .get(url)
+ .then(response => {
   console.log(response.data)
+  console.log('sucess')
+ } )
+
+ .catch( e=> {
+  console.log(e)
+  console.log('error')
+ })
+ .finally(f => {
+  console.log('finalizado')
+ })
 }
 
 getRepos()
