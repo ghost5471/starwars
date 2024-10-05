@@ -116,3 +116,7 @@ color: #FFBA33;
 .card-large .card-container .card-content:first-child {
   border-right:  3px solid #111;
 }
+
+.card-content img{
+  width: 72px;
+}
