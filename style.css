@@ -120,3 +120,52 @@ color: #FFBA33;
 .card-content img{
   width: 72px;
 }
+
+.table{
+  width: 642px;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow:  0px 4px 15px rgba( 0 , 0, 0, 0.25);
+  border-radius: 16px;
+  text-align: left;
+  
+ 
+}
+
+.table h5{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.table table th{
+  border-bottom: 1px solid #5e5e5e;
+  padding: 10px 0;
+
+}
+
+.table table td{
+  border-bottom: 1px solid #5e5e5e;
+  margin-bottom: 10px 0;
+}
+.table table{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.content-info{
+  display: flex;
+  align-items: center;
+}
+
+.chart{
+  background: yellow;
+  width: 400px;
+  height: 450px;
+  padding:0;
+  box-shadow:  0px 4px 15px rgba( 0 , 0, 0, 0.25);
+  border-radius: 16px;
+
+  
+ 
+}
